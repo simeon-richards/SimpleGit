@@ -11,8 +11,8 @@ pool: Default
 steps:
 
 - script: |
-    C:\LDRA_Toolsuite_C_CPP_10.0.3\contbuildimport -build_cmd="mingw32-make SimpleGit" -startin_dir=%CD% -build -quit
-    C:\LDRA_Toolsuite_C_CPP_10.0.3\contestbed SimpleGit.btf /11234q
+    C:\LDRA_Toolsuite_C_CPP_10.0.3\contbuildimport -build_cmd="mingw32-make" -startin_dir=%CD% -build -quit
+    C:\LDRA_Toolsuite_C_CPP_10.0.3\contestbed simple.btf /11234q
   displayName: 'Run a multi-line script'
 
 - task: PublishPipelineArtifact@1
