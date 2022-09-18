@@ -11,6 +11,6 @@ steps:
 
 - task: PublishPipelineArtifact@1
   inputs:
-    PathtoPublish: 'C:\LDRA_Workarea_C_CPP_10.0.3\simple_tbwrkfls\simple_reports\'
-    ArtifactName: 'zip'
+    targetPath: 'C:\LDRA_Workarea_C_CPP_10.0.3\simple_tbwrkfls\simple_reports\'
+    artifact: 'zip'
     publishLocation: 'pipeline'
