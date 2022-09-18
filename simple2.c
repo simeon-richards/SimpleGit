@@ -1,4 +1,1 @@
-int f() {
-  system(dir);
-  return 1;
-}
+int f() {return 1;}
